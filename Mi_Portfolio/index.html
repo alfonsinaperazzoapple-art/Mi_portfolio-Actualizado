@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfon — Portfolio</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;600;700&family=Poppins:wght@500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Mi Portfolio</h1>
+      <nav class="nav">
+         <a href="#proyectos">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-btn">&#9776;</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner container">
+      <h2 class="hero-title">
+        Soy <span>Alfonsina Perazzo</span>
+        <img src="assets/alfo.jpg" alt="Foto de Alfon" class="perfil">
+      </h2>
+      <p>Desarrolladora web junior | Transformo ideas en aplicaciones web funcionales, intuitivas y con diseño cuidado.
+</p>
+    </div>
+  </section>
+
+
+  <section class="about container">
+    <h2>Sobre mí</h2>
+
+    <p>	Soy desarrolladora web junior apasionada por crear soluciones digitales que combinan funcionalidad y
+       diseño limpio. Manejo [HTML, CSS, JavaScript, React] y disfruto transformando ideas en aplicaciones
+       web intuitivas, eficientes y estéticamente agradables. Me motiva aprender constantemente, colaborar 
+       con equipos dinámicos y aportar valor real en cada proyecto, asegurando experiencias digitales que 
+       faciliten y mejoren la interacción del usuario.
+     </p>
+  </section>
+
+  
+  <section id="proyectos" class="projects container">
+    <h2>Mis Proyectos</h2>
+    <div class="grid">
+
+      
+      <div class="project-card">
+        <img src="assets/agendalocal.jpg" alt="Agenda Local" class="project-img">
+        <h3 class="project-title">Agenda Local</h3>
+        <p class="project-description">Organiza tus tareas y eventos locales con facilidad.</p>
+        <div style="margin:16px 0; display:flex; gap:10px;">
+          <a href="Agenda Local/index.html" class="small-btn" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/alfonsinaperazzoapple-art/Mi-Portfolio/tree/main/Agenda%20Local" class="small-btn" target="_blank">Código en GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="assets/agenda-backend.jpg" alt="Agenda Backend" class="project-img">
+        <h3 class="project-title">Agenda Backend</h3>
+        <p class="project-description">Administra contactos y tareas con persistencia segura.</p>
+        <div style="margin:16px 0; display:flex; gap:10px;">
+          <a href="Agenda-Backend/index.html" class="small-btn" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/alfonsinaperazzoapple-art/Mi-Portfolio/tree/main/Agenda-Backend" class="small-btn" target="_blank">Código en GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="assets/appdelclima.jpg" alt="App del Clima" class="project-img">
+        <h3 class="project-title">App del Clima</h3>
+        <p class="project-description">Consulta pronósticos en tiempo real.</p>
+        <div style="margin:16px 0; display:flex; gap:10px;">
+          <a href="App del Clima/index.html" class="small-btn" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/alfonsinaperazzoapple-art/Mi-Portfolio/tree/main/App%20del%20Clima" class="small-btn" target="_blank">Código en GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="assets/mipagina.jpg" alt="Página Personal" class="project-img">
+        <h3 class="project-title">Página Personal</h3>
+        <p class="project-description">Proyectos, habilidades y contacto.</p>
+        <div style="margin:16px 0; display:flex; gap:10px;">
+          <a href="Mi-pagina/index.html" class="small-btn" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/alfonsinaperazzoapple-art/Mi-Portfolio/tree/main/Mi-pagina" class="small-btn" target="_blank">Código en GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="assets/challenge.jpg" alt="Challenge JS" class="project-img">
+        <h3 class="project-title">Challenge 70 Ejercicios</h3>
+        <p class="project-description">70 ejercicios de lógica y DOM.</p>
+        <div style="margin:16px 0; display:flex; gap:10px;">
+          <a href="Challenges/index.html" class="small-btn" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/alfonsinaperazzoapple-art/Mi-Portfolio/tree/main/Challenges" class="small-btn" target="_blank">Código en GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form>
+      <label>Nombre
+        <input type="text" name="nombre" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" required>
+      </label>
+      <label>Mensaje
+        <textarea name="mensaje" rows="4" required></textarea>
+      </label>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>©️ 2025 Alfon — Portfolio</p>
+    <div class="social-links">
+      <a href="https://github.com/tuusuario" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/tuusuario/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
+
